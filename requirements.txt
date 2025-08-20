@@ -1,0 +1,4 @@
+moviepy
+fugashi
+mecab-python3
+openai-whisper
