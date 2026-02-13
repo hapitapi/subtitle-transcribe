@@ -38,7 +38,7 @@ def main(json_path, srt_path):
         print("⚠️ words情報がありません。")
         return
 
-    # ✅ あなた専用のMeCab辞書パス設定
+    # MeCab辞書パス設定
     tagger = GenericTagger('-d /opt/homebrew/lib/mecab/dic/ipadic -r /opt/homebrew/Cellar/mecab/0.996/.bottle/etc/mecabrc')
 
     with open(srt_path, "w", encoding="utf-8") as f:
