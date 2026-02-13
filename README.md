@@ -33,13 +33,16 @@ PowerDirector などの動画編集ソフトにそのまま取り込める形式
 Whisperを用いて動画ファイルからJSONを生成します。
 　```bash
 python convert_json.py sample.mp4
+```
 
 2.JSON→SR変換
 Whisperで生成したJSONをSRTに変換します。
 　```bash
 python convert_srt.py sample.json sample.srt
+```
 
-2.複数SRTを結合
+3.複数SRTを結合
 複数の字幕ファイルをまとめて1つにします。
 　```bash
 python merge_srt.py input1.srt input2.srt merged_output.srt
+```
